@@ -1,0 +1,42 @@
+
+  .face{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    height: 57%;
+    background: white;
+    border-radius: 50%;
+  }
+  
+  .mouth-top{
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    left: 25%;
+    bottom:15%;
+    background: #bbb;
+    border-radius: 50%;
+    backface-visibility: hidden;
+    z-index: 1;
+  }
+  
+  .mouth-bottom{
+    position: absolute;
+    width: 50%;
+    height: 25%;
+    left: 25%;
+    bottom:35%;
+    background: white;
+    backface-visibility: hidden;
+    z-index: 2;
+  }
+
+  .plate {
+    position:relative;
+    text-align:center;
+    width:25%;
+    border:solid;
+    border-radius:20px 20px 20px 20px;
+  }
+  
